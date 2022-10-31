@@ -1,5 +1,12 @@
 body {
+	align: center;
+	background: #f6f4f0;
+	font-family: 'Arsenal', sans-serif;
+}
+
+h1 {
 	text-align: center;
+	color: #717371;
 }
 
 .container {
@@ -20,7 +27,7 @@ body {
 }
 
 table {
-	font-family: sans-serif;
+	text-align: center;
 	background-origin: separate;
 	border-spacing: 5px;
 	background: #ece9E0;
@@ -32,10 +39,26 @@ table {
 }
 
 th {
-	font-size: 18px;
+	font-size: 20px;
 	padding: 10px;
 }
 
+td {
+	font-size: 18px;
+}
+
 footer {
+	text-align: center;
 	padding-top: 50px;
+	color: #717371;
+}
+
+a {
+	text-decoration: none;
+	color: #656665;
+}
+
+a:hover {
+	font-size: 20px;
+	color: #000;
 }
