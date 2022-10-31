@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+}
+
+table {
+	font-family: sans-serif;
+	background-origin: separate;
+	border-spacing: 5px;
+	background: #ece9E0;
+	color: #656665;
+	border: 16px solid #ece9e0;
+	border-radius: 20px;
+}
+
+th {
+	font-size: 18px;
+	padding: 10px;
+}
+
+td {
+	
+}
