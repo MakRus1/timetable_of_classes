@@ -2,12 +2,21 @@ body {
 	text-align: center;
 }
 
-table.odd {
-	float: left;
+.container {
+	width: 100%;
 }
 
-table.even {
-	float: right;
+.container div {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.odd {
+	width: 50%;
+}
+
+.even {
+	width: 50%;
 }
 
 table {
@@ -18,7 +27,6 @@ table {
 	color: #656665;
 	border: 16px solid #ece9e0;
 	border-radius: 20px;
-	margin: 0 5%;
 }
 
 th {
@@ -26,6 +34,6 @@ th {
 	padding: 10px;
 }
 
-td {
-
+footer {
+	padding-top: 50px;
 }
